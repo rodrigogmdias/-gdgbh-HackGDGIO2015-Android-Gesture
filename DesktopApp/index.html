@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html ng-app="GestureApp">
+<head>
+	<meta charset="utf-8">
+	<title>Android Gesture</title>
+	<link rel="stylesheet" href="fonts/font.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="scss/style.css">
+	<script src="js/angular.min.js"></script>
+	<script src="js/script.js"></script>
+	
+</head>
+<body ng-controller="AppController">
+	<img class="logo animated fadeInUp" src="imgs/logo-white.png" alt="Logo">
+	
+	<div id="home" class="page animated fadeIn" ng-show="page_show == 'home'">
+		<p class="text-center">
+			Crie seu primeiro gesto e comece a controlar seu computador
+		</p>
+		
+		<a href="javascript:void(0)" ng-click="changePage('passo1')" class="btn animated">Começar</a>
+	</div>
+	
+	<div id="lista" class="page animated fadeIn" ng-show="page_show == 'lista'">
+		<h2>Gerencie seus gestos:</h2>
+		
+		<ul id="gestos">
+			<li ng-repeat="gesture in gestures">
+				<p>
+					{{gesture.name}} <span>{{gesture.hotkey}}</span>
+				</p>
+			</li>
+		</ul>
+		
+		<a href="javascript:void(0)" ng-click="changePage('passo1')" class="btn animated">Cadastrar Gesto</a>
+	</div>
+	
+	<div id="passo1" class="page animated fadeIn" ng-show="page_show == 'passo1'">
+		<form action="javascript:void(0)" ng-submit="changePage('passo2')">
+			<p>
+				De um nome para seu gesto:
+			</p>
+			<input name="name" placeholder="Digite aqui">
+			
+			<p><input type="submit" value="submit" style="display: none"></p>
+		</form>
+	</div>
+	
+	<div id="passo2" class="page animated fadeIn" ng-show="page_show == 'passo2'">
+		<form action="javascript:void(0)">
+			<p>
+				Pressione o comando que deseja executar:
+			</p>
+			<input name="name" placeholder="Esperando...">
+		
+			<a href="javascript:void(0)" ng-click="changePage('lista')" class="btn animated">Próximo</a>
+			
+			<p><input type="submit" value="submit" style="display: none"></p>
+		</form>
+	</div>
+</body>
+</html>

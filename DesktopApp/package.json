@@ -1,0 +1,36 @@
+{
+  "name": "gestureapp",
+  "version": "0.0.1",
+  "description": "Android gesture App for hacktong google",
+  "main": "index.html",
+  "window": {
+    "title": "Android Gesture",
+    "toolbar": false,
+    "frame": true,
+    "resizable": false,
+    "position": "center",
+    "width": 500,
+    "as_desktop": true,
+    "height": 350
+  },
+  "repository": {
+    "url": "https://github.com/your-name/slush-nodewebkit"
+  },
+  "scripts": {
+    "run": "nwbuild -v 0.12.0 --run ./",
+    "win": "nwbuild -v 0.12.0 -p win ./",
+    "linux": "nwbuild -v 0.12.0 -p linux32,linux64 ./",
+    "osx": "nwbuild -v 0.12.0 -p osx ./"
+  },
+  "author": {
+    "name": "Rodrigo Dias",
+    "url": "contato@rodrigodias.us"
+  },
+  "dependencies": {
+    "node-webkit-builder": "*"
+  },
+  "devDependencies": {
+    "gulp": "^3.6.2",
+    "gulp-shell": "^0.2.5"
+  }
+}

@@ -1,0 +1,17 @@
+body {
+  background-color: #454545;
+  color: white;
+  font-family: 'verdana'; }
+
+.logo {
+  position: absolute;
+  top: 100px;
+  left: 60px; }
+
+#home {
+  padding: 70px 20px 70px 200px; }
+
+.text-center {
+  text-align: center; }
+
+/*# sourceMappingURL=style.css.map */

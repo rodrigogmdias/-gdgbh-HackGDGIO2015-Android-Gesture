@@ -1,0 +1,1 @@
+var GestureApp=angular.module("GestureApp",[]).controller("AppController",function(e){e.gestures=[{name:"Proximo",hotkey:"right-button"},{name:"Anterior",hotkey:"left-button"},{name:"Play Music",hotkey:"enter"},{name:"Stop Music",hotkey:"esc"}],e.page_show="home",e.changePage=function(o){e.page_show=o}});
