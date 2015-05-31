@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/rodrigodias/.gradle/caches/modules-2/files-2.1/org.java-websocket/Java-WebSocket/1.3.0/db2658f013fb163de4a99274c2eb9e17efe535d2/Java-WebSocket-1.3.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="db2658f013fb163de4a99274c2eb9e17efe535d2">
+        <dex dex="/Users/rodrigodias/AndroidStudioProjects/AndroidGesture3/app/build/intermediates/pre-dexed/debug/Java-WebSocket-1.3.0-724022730b747184fbdc6d75ff2e3686e6658d5c.jar" />
+    </item>
+    <item
+        jar="/Users/rodrigodias/AndroidStudioProjects/AndroidGesture3/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="/Users/rodrigodias/AndroidStudioProjects/AndroidGesture3/app/build/intermediates/pre-dexed/debug/classes-56fde761a82606eeb164d621df8f2fc25a47602a.jar" />
+    </item>
+    <item
+        jar="/Users/rodrigodias/AndroidStudioProjects/AndroidGesture3/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/jars/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="/Users/rodrigodias/AndroidStudioProjects/AndroidGesture3/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-d665f2d9db6dd7453d8c581c3ede7915e53b1381.jar" />
+    </item>
+    <item
+        jar="/Users/rodrigodias/AndroidStudioProjects/AndroidGesture3/app/build/intermediates/exploded-aar/com.google.android.support/wearable/1.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="0e239b45d3b94ac3d759405a9c5fd1f88e53913b">
+        <dex dex="/Users/rodrigodias/AndroidStudioProjects/AndroidGesture3/app/build/intermediates/pre-dexed/debug/classes-47057b7a634550ea91c3caf1622161c1ca4a1892.jar" />
+    </item>
+    <item
+        jar="/Users/rodrigodias/AndroidStudioProjects/AndroidGesture3/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="69dd177337ead693c408c8dddc9546bb6f1244fa">
+        <dex dex="/Users/rodrigodias/AndroidStudioProjects/AndroidGesture3/app/build/intermediates/pre-dexed/debug/classes-80e92a591955ef545edb9a0bc32eeee9d8b1ef88.jar" />
+    </item>
+    <item
+        jar="/Users/rodrigodias/AndroidStudioProjects/AndroidGesture3/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="c6d79137693d494dee16372d3921f919eb724ced">
+        <dex dex="/Users/rodrigodias/AndroidStudioProjects/AndroidGesture3/app/build/intermediates/pre-dexed/debug/classes-83dfb3b13e2dc9c730e0a7209b4dc6a7d6a58510.jar" />
+    </item>
+    <item
+        jar="/Users/rodrigodias/Development/android/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="/Users/rodrigodias/AndroidStudioProjects/AndroidGesture3/app/build/intermediates/pre-dexed/debug/support-annotations-22.0.0-ad0a71353988393bd6f2dd87c4fedf0deafa98f3.jar" />
+    </item>
+    <item
+        jar="/Users/rodrigodias/AndroidStudioProjects/AndroidGesture3/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="a78183f30e769a98ab4820794f597763088d3065">
+        <dex dex="/Users/rodrigodias/AndroidStudioProjects/AndroidGesture3/app/build/intermediates/pre-dexed/debug/classes-925e48b4bb18dfec43032759cc1f7f5f8e00ebdc.jar" />
+    </item>
+
+</items>
