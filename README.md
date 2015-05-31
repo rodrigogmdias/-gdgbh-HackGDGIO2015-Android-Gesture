@@ -14,8 +14,6 @@ Após abrir o app no Android Wear, o aplicativo faz conexão com a aplicação D
 
 Na Aplicação Desktop o usuario faz o cadastro de movimentos utilizando o Android Wear para serem comparados posteriormente. Ao encontrar um padrão cadastrado o App Desktop dispara o Hotkey cadastrado.
 
-Após detectar o padrão cadastrado pelo usuário, é disparado então para o sistema o Hotkey.
-
 ## Instalação Desktop App
 
 O app do desktop foi feito em nodeWebKit por isso vc precisa ter instalado em sua maquina o NodeJS.
