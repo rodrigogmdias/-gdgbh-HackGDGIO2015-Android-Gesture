@@ -18,7 +18,7 @@ Após detectar o padrão cadastrado pelo usuário, é disparado então para o si
 
 ## Instalação Desktop App
 
-O app do desktop foi feito em nodeWebKit para isso vc precisa ter instalado em sua maquina o NodeJS.
+O app do desktop foi feito em nodeWebKit por isso vc precisa ter instalado em sua maquina o NodeJS.
 
 Após instalar o Node abra o terminal e execute:
 
